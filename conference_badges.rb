@@ -24,6 +24,8 @@ def printer(names)
   rooms = assign_rooms(names)
   for i in (0..names.size-1) do
     puts badges[i]
+  end
+  for i in (0..names.size-1) do
     puts names[i]
   end
 end
