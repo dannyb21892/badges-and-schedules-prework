@@ -18,3 +18,13 @@ def assign_rooms(names)
   end
   output
 end
+
+def printer(names)
+  badges = batch_badge_creator(names)
+  rooms = assign_rooms(names)
+  for i in names do
+    puts badges[i]
+    puts names[i]
+  end
+end
+    
